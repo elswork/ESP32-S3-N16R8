@@ -1,5 +1,7 @@
 # Curso: "Programa el Mundo Real con Vibe Coding y ESP32"
 
+![ESP32](img/Esp32L.webp)
+
 ## Introducción
 
 ¡Bienvenido al curso "Programa el Mundo Real con Vibe Coding y ESP32"! En este curso, exploraremos el emocionante mundo de la programación de microcontroladores y el Internet de las Cosas (IoT) de una manera innovadora y accesible para todas las edades.
@@ -38,6 +40,17 @@ Antes de sumergirnos en la programación, nos aseguraremos de que tienes todo lo
     5.  **Carga y Prueba:** Copia el código en el IDE de Arduino, cárgalo a tu ESP32 y observa cómo funciona en el mundo real.
 
     Este método te permitirá experimentar rápidamente, entender los conceptos subyacentes y construir proyectos sin la frustración inicial de recordar cada coma o punto y coma.
+*   **¿Qué es el Internet de las Cosas (IoT)?**
+    
+    El **Internet de las Cosas (IoT)** se refiere a la red de objetos físicos ("cosas") que llevan sensores, software y otras tecnologías para conectarse e intercambiar datos con otros dispositivos y sistemas a través de internet. Piensa en ello como darle superpoderes digitales a los objetos cotidianos.
+
+    *   **Ejemplos de IoT:**
+        *   Un termostato inteligente que puedes controlar con tu teléfono desde cualquier lugar.
+        *   Zapatillas para correr que registran la distancia y la velocidad de tus carreras.
+        *   Sensores en una granja que miden la humedad del suelo y activan el riego automáticamente.
+
+    **¿Por qué es importante para este curso?**
+    La placa **ESP32-S3-N16R8** es una estrella en el mundo del IoT. Gracias a su conectividad **Wi-Fi y Bluetooth incorporada**, es la herramienta perfecta para crear tus propios dispositivos IoT. En este curso, no solo aprenderás a leer sensores y controlar LEDs, sino que también darás el salto para conectar tus creaciones a la red. Podrás, por ejemplo, crear una pequeña estación meteorológica que publique la temperatura en una página web o un sistema que te envíe una notificación a tu teléfono cuando alguien presione un botón. ¡El IoT es donde el mundo físico y el digital se encuentran, y tú estarás justo en el centro de esa intersección!
 *   **Conociendo tu Placa:** Un recorrido por las características y pines de la ESP32-S3-N16R8.
     
     La **ESP32-S3-N16R8** es un microcontrolador muy versátil y potente, ideal para proyectos de IoT y embebidos. Aquí te presentamos sus características clave:
@@ -56,6 +69,8 @@ Antes de sumergirnos en la programación, nos aseguraremos de que tienes todo lo
 
     **¿Dónde encontrar el Pinout?**
     Es crucial tener a mano el diagrama de pines (pinout) de tu placa ESP32-S3-N16R8. Este diagrama te mostrará qué función tiene cada pin y cómo conectar tus componentes externos. Puedes encontrarlo buscando en Google "ESP32-S3-N16R8 pinout" o consultando la documentación específica del fabricante de tu placa. ¡Guarda una copia, la necesitarás a menudo!
+
+    ![Pinout](img/Pinout.webp)
 *   **Configuración del Entorno:** Guía paso a paso para instalar PlatformIO en VS Code.
     
     Para poder programar tu placa ESP32-S3-N16R8, utilizaremos **PlatformIO IDE** dentro de **Visual Studio Code**. PlatformIO es un ecosistema de desarrollo de código abierto para IoT que ofrece una experiencia de programación más avanzada y flexible.
