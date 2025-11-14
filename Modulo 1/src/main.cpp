@@ -1,8 +1,8 @@
 #include <Adafruit_NeoPixel.h>
 
 // El pin donde está conectado el LED Neopixel. En muchas placas ESP32-S3
-// es el pin 2. Si no funciona, otros comunes son 48 o 18.
-#define NEOPIXEL_PIN 2
+// es el pin 48. Si no funciona, otros comunes son 2 o 18.
+#define NEOPIXEL_PIN 48
 
 // Número de LEDs en la tira (para el LED integrado, es 1).
 #define NUM_PIXELS 1
@@ -17,6 +17,7 @@ void setup() {
 }
 
 void loop() {
+
   // Color Rojo
   pixels.setPixelColor(0, pixels.Color(255, 0, 0));
   pixels.show(); // Envía el color al LED.
@@ -31,4 +32,5 @@ void loop() {
   pixels.setPixelColor(0, pixels.Color(0, 0, 255));
   pixels.show();
   delay(1000);
+
 }
