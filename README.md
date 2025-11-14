@@ -114,3 +114,5 @@ Antes de sumergirnos en la programación, nos aseguraremos de que tienes todo lo
     ¡Con PlatformIO y VS Code, tienes un entorno de desarrollo muy potente y listo para empezar a programar tu ESP32-S3-N16R8!
 
 ## [Módulo 1: Primeros Pasos con el LED RGB (NeoPixel)](Modulo%201/README.md)
+
+## [Módulo 2: Fundamentos de Programación Aplicada](Modulo%202/README.md)
