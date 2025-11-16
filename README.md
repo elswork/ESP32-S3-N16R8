@@ -118,3 +118,5 @@ Antes de sumergirnos en la programación, nos aseguraremos de que tienes todo lo
 ## [Módulo 2: Fundamentos de Programación Aplicada](Modulo%202/README.md)
 
 ## [Módulo 3: Interactuando con el Mundo Físico: Sensores y Entradas](Modulo%203/README.md)
+
+## [Módulo 4: Conectando tu Proyecto al Mundo con Wi-Fi](Modulo%204/README.md)
