@@ -6,7 +6,7 @@
 
 ¡Bienvenido al curso "Programa el Mundo Real con Vibe Coding y ESP32"! En este curso, exploraremos el emocionante mundo de la programación de microcontroladores y el Internet de las Cosas (IoT) de una manera innovadora y accesible para todas las edades.
 
-Olvídate de las complejidades iniciales de la sintaxis. Aquí, aprenderás a "programar con la mente" utilizando el concepto de **Vibe Coding**. Esto significa que te enfocarás en *qué quieres que haga tu dispositivo* y usarás un asistente de inteligencia artificial (como Gemini) para ayudarte a generar el código necesario. Luego, cargarás ese código en tu placa **ESP32-S3-N16R8** para ver tus ideas cobrar vida en el mundo físico.
+Olvídate de las complejidades iniciales de la sintaxis. Aquí, aprenderás a "programar con la mente" utilizando el concepto de **Vibe Coding**. Esto significa que te enfocarás en *qué quieres que haga tu dispositivo* y usarás un asistente de inteligencia artificial (como Gemini) para ayudarte a generar el código necesario. Luego, cargarás ese código en tu placa [**ESP32-S3-N16R8**](https://es.aliexpress.com/item/1005006418608267.html) para ver tus ideas cobrar vida en el mundo físico.
 
 La placa ESP32-S3-N16R8 es un potente microcontrolador con capacidades Wi-Fi y Bluetooth, lo que la convierte en la herramienta perfecta para construir proyectos interactivos y conectados.
 
@@ -116,3 +116,5 @@ Antes de sumergirnos en la programación, nos aseguraremos de que tienes todo lo
 ## [Módulo 1: Primeros Pasos con el LED RGB (NeoPixel)](Modulo%201/README.md)
 
 ## [Módulo 2: Fundamentos de Programación Aplicada](Modulo%202/README.md)
+
+## [Módulo 3: Interactuando con el Mundo Físico: Sensores y Entradas](Modulo%203/README.md)
