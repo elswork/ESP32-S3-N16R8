@@ -113,6 +113,37 @@ Antes de sumergirnos en la programación, nos aseguraremos de que tienes todo lo
 
     ¡Con PlatformIO y VS Code, tienes un entorno de desarrollo muy potente y listo para empezar a programar tu ESP32-S3-N16R8!
 
+*   **Instalación de Node.js y Gemini CLI:**
+    
+    Para aprovechar al máximo el "Vibe Coding" con tu asistente de IA (Gemini), necesitarás instalar Node.js y la herramienta de línea de comandos de Gemini.
+
+    1.  **Instalar Node.js:**
+        *   **Windows:** Se recomienda usar `winget` (Administrador de paquetes de Windows). Abre una terminal como administrador y ejecuta:
+            ```bash
+            winget install OpenJS.NodeJS
+            ```
+            Si no tienes `winget`, puedes descargarlo desde [nodejs.org](https://nodejs.org/).
+        *   **macOS:** Se recomienda usar Homebrew. Abre una terminal y ejecuta:
+            ```bash
+            brew install node
+            ```
+        *   **Linux:** Utiliza el gestor de paquetes de tu distribución. Por ejemplo, para Debian/Ubuntu:
+            ```bash
+            sudo apt update
+            sudo apt install nodejs npm
+            ```
+        Verifica la instalación ejecutando `node -v` y `npm -v`.
+
+    2.  **Instalar Gemini CLI:**
+        Una vez que Node.js y npm estén instalados, abre una terminal y ejecuta:
+        ```bash
+        npm install -g @google/gemini-cli
+        ```
+        Esto instalará la herramienta de línea de comandos de Gemini globalmente.
+        Verifica la instalación ejecutando `gemini -v`.
+
+        Asegúrate de configurar tu clave de API de Gemini siguiendo las instrucciones de la documentación oficial de Gemini CLI.
+
 ## [Módulo 1: Primeros Pasos con el LED RGB (NeoPixel)](Modulo%201/README.md)
 
 ## [Módulo 2: Fundamentos de Programación Aplicada](Modulo%202/README.md)
